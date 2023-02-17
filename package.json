@@ -1,12 +1,13 @@
 {
-  "name": "io.cordova.hellocordova",
-  "displayName": "HelloCordova",
+  "name": "robslockApp",
+  "displayName": "robslockApp",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "main": "index.js",
+  "main": "index.tsx",
+  "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "BUILD_PATH='./www' react-scripts build ",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
