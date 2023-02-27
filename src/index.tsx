@@ -17,7 +17,6 @@ if (window.cordova) {
                 <App />
             </React.StrictMode>
         );
-
     }, false);
 } else {
     root.render(
